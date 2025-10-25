@@ -1,0 +1,57 @@
+body{
+    background-color: yellow ;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+.produto:hover {
+    transform: scale(1.05);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.preco {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: rgb(36, 168, 36);
+}
+
+.comprar {
+    background-color: #757274;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.Logo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+
+
+}

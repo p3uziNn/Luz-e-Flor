@@ -1,0 +1,83 @@
+body{
+  background-color: rgb(255, 255, 255);
+  color: rgb(210, 212, 51);
+  font-family: 'Trebuchet MS','Lucida Sans Unicode','Lucida Grande','Lucida Sans', Arial,sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  align-items: start;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title{
+  flex-direction: column;
+  line-height: 10px;
+}
+li{
+  display: inline-block;
+  margin: 20px;
+
+}
+
+a{
+  color: rgb(47, 112, 253);
+}
+
+a:hover{
+  color: rgb(40, 255, 21);
+  transition: 0.3s all;
+}
+#inscreva-se-btn{
+  border: 2px solid; color: rgb(255, 255, 255) ;
+  padding: 10px;
+  border-radius: 15px;
+
+}
+#iscreva-se-btn:{
+
+}
+
+
+h1{
+  font-weight: 200;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2{
+  font-size: 50px;
+  line: 10px;
+  font-family: arial;
+  display: inline-block;
+  margin: 20px;
+}
+span{
+  color: yellow (143, 143, 33);
+  background-color: rgb(255, 250, 250);
+}
+.dois{
+  color: greenyellow;
+}
+
+p{
+  line-height: 20px;
+  max-width: 500px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+img{
+  width: auto;
+  box-shadow:  13px 8px 0px 2px rgba(255, 247, 0, 1);
+
+}
